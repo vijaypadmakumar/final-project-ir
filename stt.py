@@ -9,6 +9,9 @@ _WAVE_OUTPUT_FILENAME = "output.wav"
 
 
 def record_audio():
+    """
+    This function records audio for 5 seconds saves it to the file named in _WAVE_OUTPUT_FILE
+    """
     CHUNK = 1024
     FORMAT = pyaudio.paInt16
     CHANNELS = 1
@@ -46,6 +49,9 @@ def record_audio():
 
 
 def get_text():
+    """
+    This function calls record_audio(), converts the audio into text and returns the text.
+    """
     record_audio()
     r = sr.Recognizer()
 
