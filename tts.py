@@ -1,42 +1,49 @@
 """
-This file converts text to speech
+This file converts generates the output message
 """
 
-import pyttsx3
-from stt import get_text
-import sys
+import Levenshtein as l
 
 """
 future: when the path is calculated, get the distance and say the number of steps as well.
 """
 
 rooms = ["medical imaging lab", "plant room", "teaching lab",
-         "robotics lab", "lg21", "lg23", "lg26", "lg30b", "lg03b", "lg03a", "lg04", "mohan's room"]
-jargon = ["take", "me", "where", "is", "navigate", "to", "the", "room"]
-# instead of checking in the dictionary use levenshtein instead to check similarity
+         "robotics lab", "lower ground 21", "lower ground 23", "lower ground 26", "lower ground 30b", "lower ground 3b", "lower ground 3a", "lower ground 4", "mohan's room"]
+jargon = ["take", "me", "where", "is", "navigate", "to", "the"]
+
+
+def _clean_input(input_text):
+    text = [x for x in input_text.strip().lower().split(" ")
+            if x not in jargon]
+
+    text = " ".join(text)
+    return text
 
 
 def generate_reply_message(text):
     """
-    This function gets the text from the user and generates a reply message 
+    This function gets the text from the user and generates a reply message.
     """
-    text = [x for x in text.strip().lower().split(" ") if x not in jargon]
+    # input text after its been cleaned as in removed unnecessary wordings
+    clean_text = _clean_input(text)
 
-    for word in text:
-        for room in rooms:
-            if word in room:
-                return f"lets go to the {room} now. follow me."
+    # applies levenshtein distance
+    def calc_distance(x):
+        return l.distance(x, clean_text)
 
+    # calculate the distance between the cleaned text and the rooms
+    levenshtein_distances = list(map(calc_distance, rooms))
 
-def text_to_speech():
-    engine = pyttsx3.init()
-    reply_message = generate_reply_message(
-        get_text())
-    print(reply_message)
-    engine.say(reply_message)
-    engine.runAndWait()
-    engine.stop()
-    sys.exit(0)
+    # getting the index of the smallest distance
+    min_val = min(levenshtein_distances)
 
+    if min_val > 2:
+        # if the room inputted does not exist this condition is triggered
+        return None
 
-text_to_speech()
+    _index = levenshtein_distances.index(min_val)
+    room_name = rooms[_index]
+
+    # generates an output message and returns the output message and the room name
+    return f"Okay let's head to {room_name}. ", room_name
