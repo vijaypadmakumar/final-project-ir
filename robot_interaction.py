@@ -1,5 +1,6 @@
 # Libraries
 from subprocess import STDOUT
+from types import coroutine
 import pyaudio
 import wave
 import speech_recognition as sr
@@ -85,26 +86,32 @@ class RobotInteraction:
                 self.speech("Invaid input, try again please.")
             return text
 
-    def is_valid_input(self):
+    def get_input(self):
         while True:
             print("listening")
             input = self._get_input()
             if input is not None:
                 if generate_reply_message(input) is None:
+                    # in case the inputted room does not exist this condition is triggered.
                     self.speech(
                         "The room doesn't exist, try again please.")
                     continue
+
                 output_message, room_name = generate_reply_message(input)
-                return (output_message, room_name)
+                coordinates = self.get_coordinates(room_name=room_name)
+
+                self.speech(output_message)
+                return coordinates
             else:
                 # while the input is not valid the loop keeps running
                 continue
 
-    def get_coordinates(self, output_message=None, room_name=None):
-        if output_message and room_name:
-            self.speech(output_message)
+    def get_coordinates(self, room_name=None):
+        if room_name:
+            pass
+            # get coordinates and return it
         else:
-            return "error inside get_coordinates() - robot_interaction.pyt"
+            return "error inside get_coordinates() - robot_interaction.pyt room name does not exist in the file"
 
         # get coordinates of the room name using room_name from a file and return it
         # coordinates = get_coordinates(room_name)
@@ -112,6 +119,3 @@ class RobotInteraction:
 
 
 ri = RobotInteraction()
-
-output_message, room_name = ri.is_valid_input()
-ri.get_coordinates(output_message=output_message, room_name=room_name)
