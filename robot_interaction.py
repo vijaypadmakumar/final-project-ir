@@ -66,11 +66,17 @@ class RobotInteraction:
         wf.close()
 
     def speech(self, message):
+        """
+        The argument message will be converted into speech.
+        """
         self.engine.say(message)
         self.engine.runAndWait()
         self.engine.stop()
 
     def _get_input(self):
+        """
+        Records audio, converts it into text and returns it.
+        """
         self._record_audio()
 
         r = sr.Recognizer()
@@ -87,6 +93,13 @@ class RobotInteraction:
             return text
 
     def get_input(self):
+        """
+        * reads input from the user
+        * checks whether it's null or not
+        * tries to generate a reply message
+        * if it's a valid input the coordinates of the inputted room is returned
+        * otherwise the loop continues until a valid input
+        """
         while True:
             print("listening")
             input = self._get_input()
@@ -107,15 +120,13 @@ class RobotInteraction:
                 continue
 
     def get_coordinates(self, room_name=None):
+        """
+        * get coordinates of the room name using room_name from a file and return it
+        * coordinates = get_coordinates(room_name)
+        * return coordinates
+        """
         if room_name:
             pass
             # get coordinates and return it
         else:
             return "error inside get_coordinates() - robot_interaction.pyt room name does not exist in the file"
-
-        # get coordinates of the room name using room_name from a file and return it
-        # coordinates = get_coordinates(room_name)
-        # return coordinates
-
-
-ri = RobotInteraction()
