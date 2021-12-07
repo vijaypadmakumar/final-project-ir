@@ -1,0 +1,96 @@
+0	can you take me to medical imaging lab
+1	can you take me to plant room
+2	can you take me to teaching lab
+3	can you take me to robotics lab
+4	can you take me to lower ground 21
+5	can you take me to lower ground 23
+6	can you take me to lower ground 26
+7	can you take me to lower ground 30b
+8	can you take me to lower ground 3b
+9	can you take me to lower ground 3a
+10	can you take me to lower ground 4
+11	can you take me to mohan's room
+12	please take me to medical imaging lab
+13	please take me to plant room
+14	please take me to teaching lab
+15	please take me to robotics lab
+16	please take me to lower ground 21
+17	please take me to lower ground 23
+18	please take me to lower ground 26
+19	please take me to lower ground 30b
+20	please take me to lower ground 3b
+21	please take me to lower ground 3a
+22	please take me to lower ground 4
+23	please take me to mohan's room
+24	where is medical imaging lab
+25	where is plant room
+26	where is teaching lab
+27	where is robotics lab
+28	where is lower ground 21
+29	where is lower ground 23
+30	where is lower ground 26
+31	where is lower ground 30b
+32	where is lower ground 3b
+33	where is lower ground 3a
+34	where is lower ground 4
+35	where is mohan's room
+36	guide me to medical imaging lab
+37	guide me to plant room
+38	guide me to teaching lab
+39	guide me to robotics lab
+40	guide me to lower ground 21
+41	guide me to lower ground 23
+42	guide me to lower ground 26
+43	guide me to lower ground 30b
+44	guide me to lower ground 3b
+45	guide me to lower ground 3a
+46	guide me to lower ground 4
+47	guide me to mohan's room
+48	show me the way to medical imaging lab
+49	show me the way to plant room
+50	show me the way to teaching lab
+51	show me the way to robotics lab
+52	show me the way to lower ground 21
+53	show me the way to lower ground 23
+54	show me the way to lower ground 26
+55	show me the way to lower ground 30b
+56	show me the way to lower ground 3b
+57	show me the way to lower ground 3a
+58	show me the way to lower ground 4
+59	show me the way to mohan's room
+60	how do i get to medical imaging lab
+61	how do i get to plant room
+62	how do i get to teaching lab
+63	how do i get to robotics lab
+64	how do i get to lower ground 21
+65	how do i get to lower ground 23
+66	how do i get to lower ground 26
+67	how do i get to lower ground 30b
+68	how do i get to lower ground 3b
+69	how do i get to lower ground 3a
+70	how do i get to lower ground 4
+71	how do i get to mohan's room
+72	can you guide me to medical imaging lab
+73	can you guide me to plant room
+74	can you guide me to teaching lab
+75	can you guide me to robotics lab
+76	can you guide me to lower ground 21
+77	can you guide me to lower ground 23
+78	can you guide me to lower ground 26
+79	can you guide me to lower ground 30b
+80	can you guide me to lower ground 3b
+81	can you guide me to lower ground 3a
+82	can you guide me to lower ground 4
+83	can you guide me to mohan's room
+84	can you take me to medical imaging lab
+85	can you take me to plant room
+86	can you take me to teaching lab
+87	can you take me to robotics lab
+88	can you take me to lower ground 21
+89	can you take me to lower ground 23
+90	can you take me to lower ground 26
+91	can you take me to lower ground 30b
+92	can you take me to lower ground 3b
+93	can you take me to lower ground 3a
+94	can you take me to lower ground 4
+95	can you take me to mohan's room

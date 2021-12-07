@@ -10,7 +10,8 @@ future: when the path is calculated, get the distance and say the number of step
 
 rooms = ["medical imaging lab", "plant room", "teaching lab",
          "robotics lab", "lower ground 21", "lower ground 23", "lower ground 26", "lower ground 30b", "lower ground 3b", "lower ground 3a", "lower ground 4", "mohan's room"]
-jargon = ["take", "me", "where", "is", "navigate", "to", "the"]
+jargon = ["take", "me", "where", "is", "navigate",
+          "to", "the", "can", "you", "please", "show", "way", "guide", "how", "do", "i", "get"]
 
 
 def _clean_input(input_text):

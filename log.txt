@@ -1,0 +1,96 @@
+0	Okay let's head to medical imaging lab. 	Okay let's head to medical imaging lab.
+1	Okay let's head to plant room. 	Okay let's head to plant room. 
+2	Okay let's head to teaching lab. 	Okay let's head to teaching lab. 
+3	Okay let's head to robotics lab. 	Okay let's head to robotics lab. 
+4	Okay let's head to lower ground 21. 	Okay let's head to lower ground 21. 
+5	Okay let's head to lower ground 23. 	Okay let's head to lower ground 23. 
+6	Okay let's head to lower ground 26. 	Okay let's head to lower ground 26. 
+7	Okay let's head to lower ground 30b. 	Okay let's head to lower ground 30b. 
+8	Okay let's head to lower ground 3b. 	Okay let's head to lower ground 3b. 
+9	Okay let's head to lower ground 3a. 	Okay let's head to lower ground 3a. 
+10	Okay let's head to lower ground 4. 	Okay let's head to lower ground 4. 
+11	Okay let's head to mohan's room. 	Okay let's head to mohan's room. 
+12	Okay let's head to medical imaging lab. 	Okay let's head to medical imaging lab. 
+13	Okay let's head to plant room. 	Okay let's head to plant room. 
+14	Okay let's head to teaching lab. 	Okay let's head to teaching lab. 
+15	Okay let's head to robotics lab. 	Okay let's head to robotics lab. 
+16	Okay let's head to lower ground 21. 	Okay let's head to lower ground 21. 
+17	Okay let's head to lower ground 23. 	Okay let's head to lower ground 23. 
+18	Okay let's head to lower ground 26. 	Okay let's head to lower ground 26. 
+19	Okay let's head to lower ground 30b. 	Okay let's head to lower ground 30b. 
+20	Okay let's head to lower ground 3b. 	Okay let's head to lower ground 3b. 
+21	Okay let's head to lower ground 3a. 	Okay let's head to lower ground 3a. 
+22	Okay let's head to lower ground 4. 	Okay let's head to lower ground 4. 
+23	Okay let's head to mohan's room. 	Okay let's head to mohan's room. 
+24	Okay let's head to medical imaging lab. 	Okay let's head to medical imaging lab. 
+25	Okay let's head to plant room. 	Okay let's head to plant room. 
+26	Okay let's head to teaching lab. 	Okay let's head to teaching lab. 
+27	Okay let's head to robotics lab. 	Okay let's head to robotics lab. 
+28	Okay let's head to lower ground 21. 	Okay let's head to lower ground 21. 
+29	Okay let's head to lower ground 23. 	Okay let's head to lower ground 23. 
+30	Okay let's head to lower ground 26. 	Okay let's head to lower ground 26. 
+31	Okay let's head to lower ground 30b. 	Okay let's head to lower ground 30b. 
+32	Okay let's head to lower ground 3b. 	Okay let's head to lower ground 3b. 
+33	Okay let's head to lower ground 3a. 	Okay let's head to lower ground 3a. 
+34	Okay let's head to lower ground 4. 	Okay let's head to lower ground 4. 
+35	Okay let's head to mohan's room. 	Okay let's head to mohan's room. 
+36	Okay let's head to medical imaging lab. 	Okay let's head to medical imaging lab. 
+37	Okay let's head to plant room. 	Okay let's head to plant room. 
+38	Okay let's head to teaching lab. 	Okay let's head to teaching lab. 
+39	Okay let's head to robotics lab. 	Okay let's head to robotics lab. 
+40	Okay let's head to lower ground 21. 	Okay let's head to lower ground 21. 
+41	Okay let's head to lower ground 23. 	Okay let's head to lower ground 23. 
+42	Okay let's head to lower ground 26. 	Okay let's head to lower ground 26. 
+43	Okay let's head to lower ground 30b. 	Okay let's head to lower ground 30b. 
+44	Okay let's head to lower ground 3b. 	Okay let's head to lower ground 3b. 
+45	Okay let's head to lower ground 3a. 	Okay let's head to lower ground 3a. 
+46	Okay let's head to lower ground 4. 	Okay let's head to lower ground 4. 
+47	Okay let's head to mohan's room. 	Okay let's head to mohan's room. 
+48	Okay let's head to medical imaging lab. 	Okay let's head to medical imaging lab. 
+49	Okay let's head to plant room. 	Okay let's head to plant room. 
+50	Okay let's head to teaching lab. 	Okay let's head to teaching lab. 
+51	Okay let's head to robotics lab. 	Okay let's head to robotics lab. 
+52	Okay let's head to lower ground 21. 	Okay let's head to lower ground 21. 
+53	Okay let's head to lower ground 23. 	Okay let's head to lower ground 23. 
+54	Okay let's head to lower ground 26. 	Okay let's head to lower ground 26. 
+55	Okay let's head to lower ground 30b. 	Okay let's head to lower ground 30b. 
+56	Okay let's head to lower ground 3b. 	Okay let's head to lower ground 3b. 
+57	Okay let's head to lower ground 3a. 	Okay let's head to lower ground 3a. 
+58	Okay let's head to lower ground 4. 	Okay let's head to lower ground 4. 
+59	Okay let's head to mohan's room. 	Okay let's head to mohan's room. 
+60	Okay let's head to medical imaging lab. 	Okay let's head to medical imaging lab. 
+61	Okay let's head to plant room. 	Okay let's head to plant room. 
+62	Okay let's head to teaching lab. 	Okay let's head to teaching lab. 
+63	Okay let's head to robotics lab. 	Okay let's head to robotics lab. 
+64	Okay let's head to lower ground 21. 	Okay let's head to lower ground 21. 
+65	Okay let's head to lower ground 23. 	Okay let's head to lower ground 23. 
+66	Okay let's head to lower ground 26. 	Okay let's head to lower ground 26. 
+67	Okay let's head to lower ground 30b. 	Okay let's head to lower ground 30b. 
+68	Okay let's head to lower ground 3b. 	Okay let's head to lower ground 3b. 
+69	Okay let's head to lower ground 3a. 	Okay let's head to lower ground 3a. 
+70	Okay let's head to lower ground 4. 	Okay let's head to lower ground 4. 
+71	Okay let's head to mohan's room. 	Okay let's head to mohan's room. 
+72	Okay let's head to medical imaging lab. 	Okay let's head to medical imaging lab. 
+73	Okay let's head to plant room. 	Okay let's head to plant room. 
+74	Okay let's head to teaching lab. 	Okay let's head to teaching lab. 
+75	Okay let's head to robotics lab. 	Okay let's head to robotics lab. 
+76	Okay let's head to lower ground 21. 	Okay let's head to lower ground 21. 
+77	Okay let's head to lower ground 23. 	Okay let's head to lower ground 23. 
+78	Okay let's head to lower ground 26. 	Okay let's head to lower ground 26. 
+79	Okay let's head to lower ground 30b. 	Okay let's head to lower ground 30b. 
+80	Okay let's head to lower ground 3b. 	Okay let's head to lower ground 3b. 
+81	Okay let's head to lower ground 3a. 	Okay let's head to lower ground 3a. 
+82	Okay let's head to lower ground 4. 	Okay let's head to lower ground 4. 
+83	Okay let's head to mohan's room. 	Okay let's head to mohan's room. 
+84	Okay let's head to medical imaging lab. 	Okay let's head to medical imaging lab. 
+85	Okay let's head to plant room. 	Okay let's head to plant room. 
+86	Okay let's head to teaching lab. 	Okay let's head to teaching lab. 
+87	Okay let's head to robotics lab. 	Okay let's head to robotics lab. 
+88	Okay let's head to lower ground 21. 	Okay let's head to lower ground 21. 
+89	Okay let's head to lower ground 23. 	Okay let's head to lower ground 23. 
+90	Okay let's head to lower ground 26. 	Okay let's head to lower ground 26. 
+91	Okay let's head to lower ground 30b. 	Okay let's head to lower ground 30b. 
+92	Okay let's head to lower ground 3b. 	Okay let's head to lower ground 3b. 
+93	Okay let's head to lower ground 3a. 	Okay let's head to lower ground 3a. 
+94	Okay let's head to lower ground 4. 	Okay let's head to lower ground 4. 
+95	Okay let's head to mohan's room. 	Okay let's head to mohan's room. 

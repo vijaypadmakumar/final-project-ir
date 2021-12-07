@@ -1,30 +1,12 @@
 # Libraries
-from subprocess import STDOUT
-from types import coroutine
 import pyaudio
 import wave
 import speech_recognition as sr
 import pyttsx3
 from tts import generate_reply_message
 
-"""
-Explain the class here
-"""
-
 
 class RobotInteraction:
-    """
-    Things to do:
-        * Take input from user
-        * Analyse it
-            * If input is valid
-                * Check if room is present in the lab
-                * Get coordinates
-            * If input is not valid
-                * Ask user to repeat
-        * Return coordinates
-    """
-
     def __init__(self):
         self._WAVE_OUTPUT_FILENAME = "output.wav"
         self.engine = pyttsx3.init()
@@ -110,6 +92,7 @@ class RobotInteraction:
                         "The room doesn't exist, try again please.")
                     continue
 
+                print("successful")
                 output_message, room_name = generate_reply_message(input)
                 coordinates = self.get_coordinates(room_name=room_name)
 
